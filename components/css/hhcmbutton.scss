@@ -1,0 +1,17 @@
+.hhcm-button {
+  width: 70px;
+  height: 32px;
+  border-radius: 5px;
+  border: 1px solid #DCDFE6;
+  box-shadow: 0 6px 10px 0 rgba(95, 101, 105, 0.15);
+  &-context {
+    padding: 7px;
+    font-size: 13px
+  }
+}
+.hhcm-button:hover {
+  border: 1px solid #4EA5FF;
+  background-color: #ECF5FF;
+  color: #4EA5FF;
+  cursor: pointer;
+}
